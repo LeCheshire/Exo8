@@ -1,0 +1,23 @@
+.hautdepage{
+    display: flex;
+    background-color:#9b009d;
+    align-items: center;
+}
+.colorwhite{
+    color:white;
+}
+.centerhautpage{
+    margin:auto;
+}
+.bgcolor{
+    background-color: #00e173;
+}
+.navy{
+    display:flex;
+}
+.sectionmolengeek{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
