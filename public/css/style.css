@@ -11,6 +11,10 @@
 .bgcolor{
     background-color: #00e173;
 }
+.bgcolor:hover{
+    background-color: yellowgreen;
+    width: 200px;
+}
 .centertext{
     margin:0 5px;
 }
@@ -72,6 +76,12 @@ ul.horizontal li{
     text-decoration: none;
     color:black;
 }
+.rightnavy a:hover{
+    text-decoration:wavy;
+    color:red;
+    border: #00e173 double 2px;
+    border-radius: 50%;
+}
 .sectionmolengeek{
     height: 300px;
     display: flex;
@@ -79,5 +89,48 @@ ul.horizontal li{
     align-items: center;
 }
 .sectioninfo{
-    
+    max-width: 80%;
+    margin:auto;
+}
+li::marker {
+    color: #9b009d;
+}
+.feeter{
+    background-color: #363636;
+}
+.social{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a{
+    text-decoration: none;
+    color:white;
+}
+.logosocial{
+    border:white 2px solid;
+    border-radius: 50%;
+    padding:3px;
+}
+.socialspace{
+    padding:20px;
+}
+.socialspace:hover{
+    padding:50px;
+    color:green;
+    border-right: 7px dotted yellow;
+}
+.copyrightbg{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyrightbabyyyyy{
+    color:gray;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
