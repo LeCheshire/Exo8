@@ -1,7 +1,6 @@
 .hautdepage{
     display: flex;
     background-color:#9b009d;
-    align-items: center;
 }
 .colorwhite{
     color:white;
@@ -12,12 +11,17 @@
 .bgcolor{
     background-color: #00e173;
 }
+.centertext{
+    margin:0 5px;
+}
 .navy{
     height:auto;
     display:flex;
     align-items: center;
 }
 .leftnavy{
+    align-items: center;
+    justify-content: center;
     height:120px;
     border: solid black 1px;
     flex-basis: 0;
@@ -29,6 +33,10 @@
 }
 .naver ul li a{
     text-decoration: none;
+    color:black;
+}
+.naver ul li a:hover{
+    border-bottom:black 2px solid;
 }
 .naver ul {
     list-style: none;
@@ -60,9 +68,16 @@ ul.horizontal li{
     justify-content: center;
     align-items: center;
 }
+.rightnavy a{
+    text-decoration: none;
+    color:black;
+}
 .sectionmolengeek{
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.sectioninfo{
+    
 }
