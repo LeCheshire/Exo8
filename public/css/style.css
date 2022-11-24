@@ -13,7 +13,52 @@
     background-color: #00e173;
 }
 .navy{
+    height:auto;
     display:flex;
+    align-items: center;
+}
+.leftnavy{
+    height:120px;
+    border: solid black 1px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.naver{
+    display: table;
+    margin: 0 auto;
+}
+.naver ul li a{
+    text-decoration: none;
+}
+.naver ul {
+    list-style: none;
+}
+ul.horizontal{
+    min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+ul.horizontal li{
+    display: inline;
+    margin-right:20px;
+}
+.centernavy{
+    height: 120px;
+    border:solid black 1px;
+    margin:auto;
+    flex-basis: 0;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+}
+.rightnavy{
+    height: 120px;
+    margin-left:auto;
+    border:solid black 1px;
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 .sectionmolengeek{
     height: 300px;
